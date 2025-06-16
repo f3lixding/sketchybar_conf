@@ -6,6 +6,7 @@ sketchybar --add bracket right_background \
   volume \
   battery \
   cpu \
+  network \
   --set right_background \
     background.color="$ITEM_BG_COLOR" \
     background.corner_radius=8 \
