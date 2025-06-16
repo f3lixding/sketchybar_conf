@@ -21,13 +21,13 @@ source "$ITEM_DIR/network.sh"
 source "$ITEM_DIR/right_background.sh"
 
 # Add spacer before music items
-sketchybar --add item music_spacer right \
-           --set music_spacer width=10 \
-                             background.color=0x00000000 \
-                             drawing=on
-
-source "$ITEM_DIR/music.sh"
-source "$ITEM_DIR/music_background.sh"
+# sketchybar --add item music_spacer right \
+#            --set music_spacer width=10 \
+#                              background.color=0x00000000 \
+#                              drawing=on
+# 
+# source "$ITEM_DIR/music.sh"
+# source "$ITEM_DIR/music_background.sh"
 
 sketchybar --update
 
